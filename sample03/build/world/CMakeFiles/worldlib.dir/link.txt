@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared -Wl,-soname,libworldlib.so -o libworldlib.so CMakeFiles/worldlib.dir/world.c.o 

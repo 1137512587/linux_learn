@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/main.dir/main.c.o -o main  -Wl,-rpath,/root/xqhuang/linux_learn/sample03/build/hello:/root/xqhuang/linux_learn/sample03/build/world hello/libhellolib.so world/libworldlib.so 

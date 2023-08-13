@@ -34,3 +34,5 @@
     make
     //显示详细过程
     make VERBOSE=1
+# sample03
+1.解决对功能代码文件增加删除时，使用同一个CMakeLists.txt所带来的编译耦合的问题
