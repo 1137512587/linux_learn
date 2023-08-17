@@ -36,3 +36,10 @@
     make VERBOSE=1
 # sample03
 1.解决对功能代码文件增加删除时，使用同一个CMakeLists.txt所带来的编译耦合的问题
+
+# sample04
+1.如何引入第三方库，进行开发（gtest测试框架）
+    tar -zxvf googletest-1.14.0.tar.gz //解压*.gz
+    
+
+
