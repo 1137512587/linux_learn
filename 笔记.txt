@@ -1,0 +1,42 @@
+一、Linux管理命令
+磁盘管理
+df
+df -h
+df -i
+df text
+df --total
+
+
+软件包管理
+rpm软件包管理工具
+安装
+rpm -i
+rpm -ivh xxx.rpm
+更新
+rpm -U
+卸载
+卸载软件包不需要版本号，被其它软件包依赖时会报错
+rpm -e
+rpm -e glibc
+rpm -e gcc
+显示安装信息
+rpm -V
+显示安装进度
+rpm -h
+查询系统已安装的软件包
+rpm –qa | grep gcc
+查询软件包版本号
+rpm –q gcc
+
+忽略依赖关系强行安装
+rpm -ivh --nodeps xxx.rpm
+已被其它软件安装提示冲突，对软件替代或忽略文件冲突
+rpm -ivh --replacefiles xxx.rpm
+rpm -ivh --force xxx.rpm
+
+软件控制
+ftp状态查询：systemctl status vsftpd
+启动ftp服务：systemctl start vsftpd
+重启ftp服务：systemctl restart vsftpd
+停止ftp服务：systemctl stop vsftpd
+设置开机自启：systemctl enable vsftpd
