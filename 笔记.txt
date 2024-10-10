@@ -1,3 +1,13 @@
+Linux用户登录执行步骤
+1.输入用户名和密码
+2./etc/passwd文件对比
+3./etc/shadow文件对比
+4.启动相应的外壳程序
+5.得到一个虚拟终端，进入用户的家目录
+
+
+
+
 一、Linux管理命令
 磁盘管理
 df
@@ -40,3 +50,9 @@ ftp状态查询：systemctl status vsftpd
 重启ftp服务：systemctl restart vsftpd
 停止ftp服务：systemctl stop vsftpd
 设置开机自启：systemctl enable vsftpd
+
+
+解压：
+tar -xf libxml2-2.9.12.tar.xz
+或
+tar -zxvf libxml2-2.9.12.tar.gz
