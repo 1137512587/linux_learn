@@ -1,0 +1,38 @@
+opensuse
+搜索软件
+zypper search package
+安装软件
+zypper install package
+安装某个版本软件
+zypper install package=version
+安装某个开头所有软件
+zypper install package*
+卸载软件
+zypper remove package
+升级某个软件
+zypper update package
+获取所有可更新软件列表
+zypper list-updates
+检验软件包的依赖关系的完整性
+zypper verify package
+执行系统升级
+zypper dist-upgrade
+执行源代码软件安装和其它依赖
+zypper source-install package.tgz
+
+查看配置源
+zypper repos --details
+添加源操作
+zypper ar -t yast2 URL(源链接) main
+刷新源操作
+zypper refresh
+查询opensuse版本号
+cat /etc/*-release
+
+zypper remove python
+zypper install python
+
+搜索软件
+zypper search | grep
+zypper install 
+
